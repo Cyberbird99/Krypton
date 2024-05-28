@@ -39,6 +39,7 @@ ciphertext  keyfile.dat"
 # the program in /krypton/krypon2/ is encrypt.
 # We can continue following the examples given above.
 # 
+
 $ echo ABCDEFGHIJKLMNOPQRSTUVWXYZ > plaintext
 $ /krypton/krypton2/encrypt plaintext
 $ cat ciphertext
