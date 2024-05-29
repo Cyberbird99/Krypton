@@ -10,7 +10,7 @@ shift of ROT13."
 
 $ cat krypton2 | tr 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 'NOPQRSTUVWXYZABCDEFGHIJKLM'
 
-"or"
+# OR
 
 $ cat krypton2 | tr 'A-Z' 'N-ZA-M'
 
@@ -21,4 +21,4 @@ $ cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 # The passwor is "ROTTEN"
 
-# I used  translation (tr)
+# I used  translation (tr) command
