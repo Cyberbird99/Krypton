@@ -16,11 +16,35 @@ The message plaintexts are in American English (*** very important) - They were 
 
 sshpass -p $(cat 3.txt) ssh -p 2231 krypton3@krypton.labs.overthewire.org
 
-https://github.com/Cyberbird99/Krypton/blob/main/Screenshot%20from%202024-05-27%2022-11-33.png
-
-Screenshot from 2024-05-27 22-11-33.png
 ![alt text](<Screenshot from 2024-05-27 22-38-35.png>)
+
 # We were given 3 found files and 2 hints.
 
-Screenshot from 2024-05-27 22-38-35.png
+![alt text](<Screenshot from 2024-05-27 22-38-35.png>)
 
+I used this site to do frequency analyis.
+
+That is the frequency analysis of English letters
+
+![alt text](<english letters frequency.png>)
+
+The frequency analyis of found1:
+
+![alt text](Found1Analysis.png)
+
+The frequency analyis of found2:
+
+![alt text](found2analysis.png)
+
+The frequency analyis of found3:
+
+![alt text](found3analysis.png)
+
+As seen in the analysis above, in English letters, the letter 'e' occured most, but in the found files in krypton 3 , it is 'S'. 
+'c' is substitued by 't' and so on.
+
+After the English letter frequency is compared with the found files analysis,
+we find the key.
+We can apply 'tr' command and find the password.
+
+![alt text](PASSWORD.png)
