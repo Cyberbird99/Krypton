@@ -1,5 +1,5 @@
-# Level Info
-# Well done. You’ve moved past an easy substitution cipher.
+Level Info
+Well done. You’ve moved past an easy substitution cipher.
 
 Level Info = 'The main weakness of a simple substitution cipher is repeated use of a simple key. 
 In the previous exercise you were able to introduce arbitrary plaintext to expose the key. 
@@ -12,9 +12,11 @@ You know the following important details:
 
 The message plaintexts are in American English (*** very important) - They were produced from the same key (*** even better!)'
 
-# I got into Krypton 3 using the following command (I had already saved the password 'CAESARISEASY' in a file)
+My solution:
 
-sshpass -p $(cat 3.txt) ssh -p 2231 krypton3@krypton.labs.overthewire.org
+I got into Krypton 3 using the following command (I had already saved the password 'CAESARISEASY' in a file)
+
+"$ sshpass -p $(cat 3.txt) ssh -p 2231 krypton3@krypton.labs.overthewire.org"
 
 ![alt text](<Screenshot from 2024-05-27 22-38-35.png>)
 
@@ -41,7 +43,7 @@ The frequency analyis of found3:
 ![alt text](found3analysis.png)
 
 As seen in the analysis above, in English letters, the letter 'e' occured most, but in the found files in krypton 3 , it is 'S'. 
-'c' is substitued by 't' and so on.
+'c' is substituted by 't' and so on.
 
 After the English letter frequency is compared with the found files analysis,
 we find the key.
