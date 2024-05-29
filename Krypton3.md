@@ -16,6 +16,8 @@ The message plaintexts are in American English (*** very important) - They were 
 
 sshpass -p $(cat 3.txt) ssh -p 2231 krypton3@krypton.labs.overthewire.org
 
+https://github.com/Cyberbird99/Krypton/blob/main/Screenshot%20from%202024-05-27%2022-11-33.png
+
 Screenshot from 2024-05-27 22-11-33.png
 ![alt text](<Screenshot from 2024-05-27 22-38-35.png>)
 # We were given 3 found files and 2 hints.
