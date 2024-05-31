@@ -28,19 +28,19 @@ I used this site to do frequency analyis.
 
 That is the frequency analysis of English letters
 
-![alt text](<english letters frequency.png>)
+![alt text](<images/english letters frequency.png>)
 
 The frequency analyis of found1:
 
-![alt text](Found1Analysis.png)
+![alt text](images/Found1Analysis.png)
 
 The frequency analyis of found2:
 
-![alt text](found2analysis.png)
+![alt text](images/found2analysis.png)
 
 The frequency analyis of found3:
 
-![alt text](found3analysis.png)
+![alt text](images/found3analysis.png)
 
 As seen in the analysis above, in English letters, the letter 'e' occured most, but in the found files in krypton 3 , it is 'S'. 
 'c' is substituted by 't' and so on.
@@ -49,4 +49,4 @@ After the English letter frequency is compared with the found files analysis,
 we find the key.
 We can apply 'tr' command and find the password.
 
-![alt text](PASSWORD.png)
+![alt text](images/PASSWORD.png)
