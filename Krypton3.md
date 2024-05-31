@@ -18,11 +18,11 @@ I got into Krypton 3 using the following command (I had already saved the passwo
 
 "$ sshpass -p $(cat 3.txt) ssh -p 2231 krypton3@krypton.labs.overthewire.org"
 
-![alt text](<Screenshot from 2024-05-27 22-38-35.png>)
+![alt text](<images/Screenshot from 2024-05-27 22-38-35.png>)
 
 # We were given 3 found files and 2 hints.
 
-![alt text](<Screenshot from 2024-05-27 22-38-35.png>)
+![alt text](<images/Screenshot from 2024-05-27 22-11-33.png>)
 
 I used this site to do frequency analyis.
 
